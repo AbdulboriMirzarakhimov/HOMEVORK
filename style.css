@@ -1,0 +1,12 @@
+.container {
+    display: flex;
+    flex-wrap: wrap; /* Elementlar joy yetmaganida yangi qatorda davom etadi */
+    justify-content: space-between; /* Elementlar orasida bir xil bo'shliq qoldiradi */
+  }
+  
+  .item {
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    background-color: orange;
+  }
